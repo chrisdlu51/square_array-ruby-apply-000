@@ -3,7 +3,7 @@ def square_array(array)
   counter = 0
   array.each {
     |x| 
-    result[counter] = x + 1
+    result[counter] = x**2
     counter += 1
   }
   return result
