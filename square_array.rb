@@ -1,4 +1,9 @@
 def square_array(array)
   result = Array.new
-  array.each {|x| x = x + 1 }
+  counter = 0
+  array.each {
+    |x| 
+    result[counter] = x + 1
+    counter += 1
+  }
 end
